@@ -19,7 +19,7 @@ function App() {
             <Router>
                 <Cabecera />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/alura-flix" element={<Home />} />
                     <Route path="/video" element={<Video />} />
                     <Route path="/video/:id" element={<EditarVideo />} />
                     <Route path="/categoria" element={<Categoria />} />
